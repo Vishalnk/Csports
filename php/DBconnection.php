@@ -1,6 +1,6 @@
 <?php
 
-   $conn=mysqli_connect('localhost','root','Josephite1999','csports');
+   $conn=mysqli_connect('localhost','root','','csports');
    if (!$conn){
     //    die("nope".mysqli_connect_error());
        ?>
