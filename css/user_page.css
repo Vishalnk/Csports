@@ -1,0 +1,362 @@
+.mynav{
+    z-index:2;
+    /* border:2px solid #077b8a; */
+    height:100px;
+    width:94%;
+    margin-left:3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(to bottom right,#077b8a,#a2d5c6);
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    margin-top:5px;
+}
+.mynav img{
+    position:relative;
+    width:200px;
+    height:90px;
+    background-image: linear-gradient(to bottom right,#8e2ba7,#a2d5c6);
+    border-radius: 5px;
+    margin:2px 0px 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+.mynav h3{
+    position:relative;
+    margin-top:2%;
+    margin-left: 70%;
+    
+}
+.mynav .point{
+    float: right;
+    color:black;
+    font-size: 20px;
+    margin: 0 150px 10px -200px;
+}
+.mynav .logg{
+    color:black;
+    font-size: 20px;
+    float:right;
+    margin: 5px -25px 2px 0;
+    text-decoration:none;
+    color:brown;
+}
+.menu{
+    height:50px;
+    margin: 10px 0px;
+    background-color:black;
+}
+.menu .act, .menu .pointt,.menu .profilee{
+    float:right;
+    color:snow;
+    text-decoration: none;
+    margin: 10px 70px 10px 10px;
+}
+.menu .act:hover, .menu .pointt:hover,.menu .profilee:hover,.menu .booking:hover{
+    color:red;
+}
+.menu .volley{
+    color:white;
+    text-decoration: none;
+    cursor:default;
+    float:right;
+    margin: 10px -140px 10px 10px;
+    font-size: 25px;
+}
+.menu .user{
+    color:white;
+    text-decoration: none;
+    cursor:default;
+    float:right;
+    margin: 10px -120px 10px 10px;
+    font-size: 25px;
+}
+.menu .trophy{
+    color:white;
+    text-decoration: none;
+    cursor:default;
+    float:right;
+    margin: 10px -180px 10px 10px;
+    font-size: 25px;
+}
+.menu .home{
+    float:left;
+    color:red;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 100px 10px -235px;
+}
+.menu .home_icon{
+    color:snow;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px 100px 1px -210px;
+}
+.menu .booking{
+    float:left;
+    color:snow;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 100px 10px -110px;
+}
+.menu .book_ico{
+    color:snow;
+    font-size: 23px;
+    text-decoration: none;
+    margin: 10px 100px 10px 0px;
+}
+.home_div .in{
+    background-color: snow;
+}
+.home_div{
+    /* border:2px solid red; */
+    height:1700px;
+    transform: translate(0%,0%);
+    background-image: linear-gradient(to bottom right,#404946,#16191a);
+    /*display: none;                                                             /*  div 1 none  */
+    width:90%;
+    margin-left:5%;
+}
+.one {
+    /* border:2px solid white; */
+    height:500px;
+}
+.one h2{
+    color:snow;
+    text-align: center;
+}
+.one span{
+    font-size: 60px;
+    color:yellow;
+}
+.one h3{
+        margin:50px 0 0 100px;
+}
+.one_text .home{
+    float:right;
+    color:white;
+    font-size: 20px;
+    transition: 1s;
+    /* border: 2px solid darkblue; */
+    padding:2px 6px;
+    border-radius: 10px;
+    background-color: firebrick;
+    text-decoration: none;
+}
+.one_text .home:hover{
+    background-color: white;
+    color:firebrick;
+    letter-spacing: 2px;
+}
+
+.one_text {
+    /* border:2px solid white; */
+    background-color: pink;
+    padding:20px;
+    width:580px;
+    height:250px;
+    transform: translate(90%,-110%);
+}
+.one_text i,.one_text span{
+    color:darkblue;
+}
+.one_text .p1{
+    color:black;
+    float:left;
+    font-size: 40px;
+}
+.one_text .p2{
+    color:black;
+    font-weight: 500;
+    float: left;
+    margin-top:-30px;
+}
+.two{
+    color:white;
+    /* border:2px solid palegreen; */
+    height:500px;
+}
+.two h2{
+    transform: translate(15%,30%);
+    margin: 10px 100px 0 0;
+} 
+.two_text{
+    /* border:2px solid white; */
+    width:600px;
+    padding:20px;
+    background-color: pink;
+    height:200px;
+    transform: translate(10%,-80%);
+}
+.two_text span{
+    font-size: 50px;
+    color:darkblue;
+}
+.two_text .p3{
+    color:crimson;
+    font-size: 30px;
+}
+.two_text .p4{
+    color:black;
+    font-weight: 500;
+}
+.three {
+    /* border:2px solid black; */
+    height:550px;
+}
+.three h2{
+    text-align: center;
+}
+.three span{
+    font-size: 60px;
+    color:darkblue;
+}
+
+.three h2{
+    transform: translate(-30%,20%);
+}
+.three_text {
+    /* border:2px solid white; */
+    background-color: pink;
+    padding:20px;
+    width:640px;
+    height:220px;
+    transform: translate(70%,-90%);
+}
+.three_text i,.one_text span{
+    color:darkblue;
+}
+.three_text .p5{
+    color:black;
+    float:left;
+    font-size: 40px;
+}
+.three_text .p6{
+    color:black;
+    font-weight: 500;
+    float: left;
+    margin-top:10px;
+}
+.three_text .point_link{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.sports_div{
+    /* border:2px solid red; */
+    height:300px;
+    transform: translate(0%,0%);
+    display: none;
+    width:90%;
+    margin:2% 0 0 5%;
+}
+.sub_sport_div{
+    /* border:2px solid black; */
+    margin-top:10%;
+    transition: ease 2s;
+    height:60px;
+}
+.sports_div .B,.sports_div .F,.sports_div .S{
+    text-decoration: none;
+    font-size: 30px;
+    transition: 2s;
+}
+.sports_div .foot,.sports_div .swim{
+    font-size: 30px;
+    margin-left: 10px;
+    color:black;
+}
+.sports_div .B{
+    margin: 30% 7% 0 13%;
+}
+.sports_div .F,.sports_div .S{
+    margin: 30% 5% 0 2%;
+}
+.badminton{
+    /* border:2px solid red; */
+    height:500px;
+    display: none;
+}
+.date_div{
+    background-color: #4da8ad;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid #077b8a;
+    width:400px;
+    height:400px;
+    transform: translate(30%,12%);
+}
+.next_but{
+    margin-top:-300px;
+    width:20%;
+    margin-left:450px;
+    padding:5px 30px;
+    background-color:#12232e;
+    color:powderblue;
+    font-size:20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.venue_div{
+    background-color: #4da8ad;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid #077b8a;
+    width:400px;
+    height:400px;
+    transform: translate(150%,-88%);
+}
+.badminton .label1,.football .flabel1,.swimming .slabel1{
+    margin:50px 0 0 10px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #12232e;
+}
+.badminton .label2,.football .flabel2,.swimming .slabel2{
+    margin:50px 0 0 10px;
+    color: #12232e;
+    font-weight: 500;
+    transition: 2s;
+    font-size: 25px;
+}
+.badminton .date_input,.football .fdate_input,.swimming .sdate_input{ 
+    margin:200px 0 0 90px;
+    padding:5px 10px 5px 5px;
+    font-size: 18px;
+    border:1px solid white;
+    background-color:#12232e;
+    color:powderblue;
+}
+.badminton .select,.football .fselect,.swimming .sselect{
+    margin:70px 0 0 90px;
+    padding:5px 10px 5px 5px;
+    background-color:#12232e;
+    color:powderblue;
+    border:1px solid white;
+}
+.badminton .options,.football .foptions,.swimming .soptions  {
+    background-color: #255270;
+    opacity: 0.7;
+    color:white;
+}
+.badminton .options_input,.football .foptions_input,.swimming .soptions_input{
+    margin:150px 10px 0 70px;
+    width:250px;
+    font-weight: 500;
+    text-align: center;
+    cursor:not-allowed;
+    background-color:powderblue;
+    color:#12232e;
+}
+.football{
+    /* border:2px solid #077b8a; */
+    display: none;
+}
+.swimming{
+    /* border:2px solid #077b8a; */
+    display: none;
+}
+
+/* .log{
+    margin-top:1000px;
+    color:red;
+} */

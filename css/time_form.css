@@ -1,0 +1,54 @@
+.main{
+    width:92%;
+    margin-left:4%;
+    padding:10px;
+    border:2px solid black;
+    background-color: #4da8ad;
+}
+.main p span{
+    font-size:25px;
+    /* color:blue; */
+    color: #ffdf6c;
+}
+.main p{
+    font-size: 20px;
+    color: #12232e;
+    font-weight: 500;
+    padding:0 40px 0 40px;
+}
+.main h2{
+    margin: 4% 0 2% 40%;
+    color: #12232e;
+}
+.select{
+    padding:5px 80px 5px 5px;
+    margin:5% 0 0 25%;
+    background-color:#12232e;
+    color:powderblue;
+    text-align: center;
+}
+.option{
+    background-color: #255270;
+    opacity: 0.7;
+    color:white;
+}
+.choice_txt{
+    margin-left: 5%;
+    padding:5px;
+    cursor: not-allowed;
+    color:midnightblue;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color:powderblue;
+}
+.final{
+    margin-left: 7%;
+    background-color: #12232e;
+    color:powderblue;
+    width:190px;
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
