@@ -199,11 +199,6 @@ informed to you at the venue. For any queries kindly,
               
       </div>
       
-    <!-- <script>
-      document.getElementById("otp").style.display="none";
-      function otp(){
-        document.getElementById("otp").style.display="block";
-      } -->
     </script>
     <!-- Script for jquery so bootstrap.min.js works properly -->
     <script src="./js/jquery.3.6.0.js"></script>
